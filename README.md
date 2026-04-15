@@ -1,9 +1,12 @@
 # Customer Segmentation using RFM Analysis
 
-This project performs customer segmentation using RFM (Recency, Frequency, Monetary) analysis on an e-commerce dataset.
+This project performs customer segmentation using RFM (Recency, Frequency, Monetary) analysis on a real-world e-commerce dataset.
 
 ## Objective
-Segment customers based on purchasing behavior and identify high-value customers.
+To segment customers based on purchasing behavior and identify high-value customers for targeted marketing.
+
+## Dataset
+Olist E-commerce Dataset (100K+ records)
 
 ## Tools Used
 - Python
@@ -11,22 +14,22 @@ Segment customers based on purchasing behavior and identify high-value customers
 - Matplotlib
 
 ## Analysis Performed
-- RFM (Recency, Frequency, Monetary) calculation
-- Customer segmentation into Low, Mid, High, and Premium groups
-- Revenue contribution analysis
-- Customer behavior visualization
+- Calculated Recency, Frequency, and Monetary values for each customer
+- Segmented customers into Low, Mid, High, and Premium groups
+- Analyzed revenue contribution by customer segments
+- Identified high-value customers and purchasing patterns
 
 ## Key Insights
 - Mid-value customers contributed the highest total revenue
-- Premium customers have high individual spending
-- Segmentation helps in targeted marketing strategies
+- Premium customers showed high individual spending
+- Customer segmentation helps improve retention and marketing strategies
 
 ## Visualizations
 
 ### Revenue Contribution by Segment
 ![Segment Revenue](segment_revenue.png)
 
-### Customer Segmentation (Scatter)
+### Customer Segmentation (Scatter Plot)
 ![RFM Scatter](rfm_scatter.png)
 
 ### Top 10 High Value Customers
@@ -39,4 +42,5 @@ python customer_segmentation.py
 ```
 
 ## Author
-Charan
+Charan  
+Aspiring Data Analyst
